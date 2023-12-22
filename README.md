@@ -1,6 +1,6 @@
 ## 介绍
 
-一个可以 self-hosted 在 Vercel 的项目，用于转录播客
+一个可以 self-hosted 在 Vercel 的项目，用于转录播客, [Live Project](https://podify-web.vercel.app/)
 
 ![](./public//hero-desktop.png)
 
