@@ -237,14 +237,14 @@ async function updateTranscriptions(client) {
 async function main() {
   const client = await db.connect();
 
-  // await seedUsers(client);
+  await seedUsers(client);
   // await seedCustomers(client);
   // await seedInvoices(client);
   // await seedRevenue(client);
   // await seedTranscriptions(client);
   // await updateTranscriptions(client);
   // await updateUser(client);
-  await deleteUsers(client);
+  // await deleteUsers(client);
 
   await client.end();
 }
